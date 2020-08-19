@@ -2,6 +2,7 @@ package kr.co.tjoeun.lifecycle_200817
 
 import android.os.Bundle
 import android.util.Log
+import kotlinx.android.synthetic.main.activity_other.*
 
 class OtherActivity : BaseActivity() {
 
@@ -19,6 +20,10 @@ class OtherActivity : BaseActivity() {
     }
 
     override fun setValues() {
+
+        backToMainBtn.setOnClickListener {
+            finish()
+        }
 
     }
 
