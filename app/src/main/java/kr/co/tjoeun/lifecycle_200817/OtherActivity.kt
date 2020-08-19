@@ -16,14 +16,12 @@ class OtherActivity : BaseActivity() {
 
 }
     override fun setUpEvents() {
-
-    }
-
-    override fun setValues() {
-
         backToMainBtn.setOnClickListener {
             finish()
         }
+    }
+
+    override fun setValues() {
 
     }
 
